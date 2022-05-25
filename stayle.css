@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-color: bisque; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+.subscribe{
+    color: lawngreen;
+    font-size: 36px;
+    margin-top: 36px;
+}
+
+header {
+    background: #35424a;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 25vh;
+    border-bottom: 5px solid olivedrab; 
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+}
+
+header li {
+    display: inline;
+    padding: 0 15px;
+    border-right: 2px solid olivedrab;
+}
+    
+header #branding {
+    float: left;
+}
+
+header h1 {
+    font-family:cursive;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 36px;
+    background:
+    -webkit-linear-gradient( rgb(255, 0, 0), rgb(21, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header h3 {
+    width: 340px;
+    margin-top: -3px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    font-weight: 400px;
+    font-size: 30px;
+    border-bottom:5px solid #f700ff;
+    border-bottom-right-radius: 50px;
+    background: 
+    -webkit-linear-gradient( rgb(255, 0, 221), rgb(255, 157, 0));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+
+header nav {
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#showcase {
+    min-height: 100vh;
+    background: linear-gradient(to right, #5a3c8bb4, #ad90ff83), url(/img3/05.jpg) no-repeat 0;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+#showcase h1 {
+    margin-top: 200px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#showcase p {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px black;
+    letter-spacing: 1px;
+}
+
+#newsletter {
+    padding: 15px;
+    color: #fff;
+    background: #35424a;
+}
+
+.call img {
+    width: 50px;
+    margin: 5px;
+}
+
+.call h3 {
+    color: #01c754;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.call {
+    text-align: center;
+    font-size: 25px;
+}
+
+.call p a {
+    color: rgb(0, 255, 21);
+}
+
+/**********  subscribe *********/
+
+.subscribe{
+    color: rgb(255, 197, 5);
+    font-size: 36px;
+    background: 
+    -webkit-linear-gradient( rgb(255, 0, 0), rgb(21, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#newsletter h1 {
+    float: left;
+    margin-left: 40px;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+#newsletter form input {
+    height: 25px;
+    width: 200px;
+}
+
+.button-1 {
+    background: #719b00;
+    height: 35px;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+input[type="email"] {
+    padding-left: 10px;
+    color:rgb(0, 53, 0);
+    border-radius: 5px;
+    border: 2px solid rgb(0, 255, 0);
+    font-size: 15px
+}
+
+header nav ul li a:hover{
+    border-bottom: 3px solid rgb(255, 251, 0);
+    /* border-top: 3px solid rgb(37, 216, 142); */
+    transition: 0.2s;
+    color: rgb(38, 255, 0);
+    /* transform: scale(1.5); */
+}
+
+.current{
+    border-bottom: 3px solid rgb(255, 251, 0);
+    color: rgb(21, 255, 0);
+}
+
+ /********* 3 ta rasm ni orqa fonini rasmi ********/
+
+#boxes{
+    background-color: rgb(44, 241, 255);
+}
+
+#boxes .box {
+    width: 30%;
+    float:left;
+    background-color: rgb(167, 170, 0);
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    text-align: center;
+    box-shadow: 3px 3px 10px #000;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+#boxes .box img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: .5s;
+}
+
+#boxes .box img:hover{
+    width: 100%;
+    border-radius: 20px;
+    transform:scale(1.05);
+}
+
+#boxes .container{
+    margin: 0 auto;  
+    padding-top: 100px;
+}
+
+#boxes .box h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/**************   photos   ****************/
+
+#photos{
+    text-align: center;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: rgb(255, 130, 213);
+}
+
+#photos .container{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#photos .container img {
+    width: 390px;
+    margin: 5%;
+    margin-left: 0.5%;
+    padding: 10px;
+}
+
+#photos .container ul li{
+    display: inline-block;
+    text-align: center;
+}
+
+#photos .container ul li:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+#photos h1 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px gold;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 0;
+    /* margin-bottom: 50px; */
+    border: 1px solid rgb(231, 90, 24);
+    background-color: rgb(231, 90, 24);
+    transition: 0.4s;
+    box-shadow: 7px 10px 10px rgb(75, 75, 75);
+}
+
+#photos h1:hover{
+    transform:scale(1.1);
+    box-shadow: 1px 1px 1px rgb(63, 63, 63);
+}
+
+/* ***********   tepaga strelka   ************** */
+
+.arrow img{
+    width: 70px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px grey;
+    transition: 0.3s;
+}
+
+.arrow img:hover{
+    transform: scale(1.2);
+}
+
+
+/* #author{
+    text-decoration: none ;
+} */
+
+#author #author_div .author_img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+
+#author_div{
+    margin: 30px 0;
+    margin-left: 41%;
+    padding: 1px;
+    /* border: 20px solid gold; */
+   /* box-shadow: 3px 3px 15px #000; */
+}
+
+.author_img{
+    width: 200px;
+    padding: 10px;
+}
+
+address{
+    text-align: center;
+    letter-spacing: 1.2px;
+    word-spacing: 7px;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+address p{
+    text-shadow: 1px 1px 3px rgb(128, 128, 128);
+
+}
+
+#aside{
+    width: 20%;
+    background-color: rgb(0, 129, 6);
+    position: absolute;
+    left: 900px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #000;
+}
+
+#aside #addres p a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#aside #addres p a:hover{
+    text-decoration:underline;
+}
+
+#aside #addres{
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 20px;
+    
+}
+
+
+/********************   footre   *************  */
+
+footer{
+    width: 100%;
+    height: 300px;
+    color: #ff0;
+    background-color: #5d5d5d;
+    text-align: center;
+    padding-top: 80px;
+    margin-top: 170px;
+}
+
+footer p{
+    color:rgb(0, 225, 255);
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+footer h4{
+    font-family:cursive;
+    font-weight: 700px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 40px;
+    color: rgb(0, 26, 75);
+    border-bottom: 5px solid rgb(167, 0, 103);
+    border-bottom-right-radius: 50px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 100px; */
+}
+
+/* ********  services********** */
+
+#main{
+    width: 100%;
+    /* background-color: rgb(142, 255, 108); */
+}
+
+#main-col{
+    float: left;
+    width: 60%;
+    background: linear-gradient(to right,rgb(255, 0, 149),rgb(43, 43, 255));
+    padding:25px 20px;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: 70px 0;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #555;
+}
+
+.services ul{
+    list-style: none;
+    font-size: 20px;
+}
+
+.services ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+}
+
+.services ul li{
+    margin: 5px 0;
+}
+
+#sidebar .services{
+    background: linear-gradient(90deg ,rgb(255, 0, 255), rgb(91, 0, 165) 100%);
+    width: 25%;
+    float: right;
+    padding: 30px;
+    margin-top: 70px;
+    margin-right: 1%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #555;
+    font-size: 25px;
+}
+
+
+
+/* **************   footer ichidagi iconca   ************** */
+
+.social ul li{
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+footer .social ul li img{
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+}
